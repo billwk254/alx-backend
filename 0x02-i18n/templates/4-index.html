@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ gettext('en') }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ gettext('home_title') }}</title>
+</head>
+<body>
+    {% if get_locale() == 'fr' %}
+        <h1>Bienvenue chez Holberton</h1>
+    {% else %}
+        <h1>Welcome to Holberton</h1>
+    {% endif %}
+</body>
+</html>
