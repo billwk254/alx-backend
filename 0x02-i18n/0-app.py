@@ -14,7 +14,3 @@ def index():
     Render the index.html template.
     """
     return render_template('0-index.html', title='Welcome to Holberton', header='Hello world')
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
