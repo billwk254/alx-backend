@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This module defines a Flask app with Babel integration.
+This module defines a Flask app with Babel integration and locale parameter support.
 """
 
 from flask import Flask, render_template, request
